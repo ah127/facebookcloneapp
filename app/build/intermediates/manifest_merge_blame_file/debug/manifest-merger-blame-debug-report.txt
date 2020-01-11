@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.facebookreplica"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:8:5-65
+14-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:8:22-62
+15
+16    <application
+16-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:10:5-27:19
+17        android:allowBackup="true"
+17-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:16:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:17:9-40
+26        android:usesCleartextTraffic="true" >
+26-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:14:9-44
+27        <activity android:name="com.example.facebookreplica.Dashboard" />
+27-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:18:9-56
+27-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:18:19-44
+28        <activity android:name="com.example.facebookreplica.SignupPage" />
+28-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:19:9-48
+28-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:19:19-45
+29        <activity android:name="com.example.facebookreplica.LoginPage" >
+29-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:20:9-26:20
+29-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:20:19-44
+30            <intent-filter>
+30-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:22:17-69
+31-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:24:17-77
+33-->/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/src/main/AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[com.squareup.picasso:picasso:2.71828] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/5cc4d1f9fd1d09fa58cd5ce6df263fd1/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+38            android:name="com.squareup.picasso.PicassoProvider"
+38-->[com.squareup.picasso:picasso:2.71828] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/5cc4d1f9fd1d09fa58cd5ce6df263fd1/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+39            android:authorities="com.example.facebookreplica.com.squareup.picasso"
+39-->[com.squareup.picasso:picasso:2.71828] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/5cc4d1f9fd1d09fa58cd5ce6df263fd1/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+40            android:exported="false" />
+40-->[com.squareup.picasso:picasso:2.71828] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/5cc4d1f9fd1d09fa58cd5ce6df263fd1/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+41        <provider
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/6fbf654d3db04d7d9e48eb73ccf59f45/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+42            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/6fbf654d3db04d7d9e48eb73ccf59f45/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+43            android:authorities="com.example.facebookreplica.lifecycle-process"
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/6fbf654d3db04d7d9e48eb73ccf59f45/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+44            android:exported="false"
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/6fbf654d3db04d7d9e48eb73ccf59f45/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+45            android:multiprocess="true" />
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ubasolutions/.gradle/caches/transforms-2/files-2.1/6fbf654d3db04d7d9e48eb73ccf59f45/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+46    </application>
+47
+48</manifest>

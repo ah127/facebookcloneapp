@@ -1,0 +1,4 @@
+#Sat Jan 11 16:03:41 NPT 2020
+base.0=/Users/ubasolutions/AndroidStudioProjects/stw300cem-4th-assignment-sep-a-kumar/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
